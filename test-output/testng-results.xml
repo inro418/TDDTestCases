@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="311" started-at="2020-10-27T23:39:41Z" finished-at="2020-10-27T23:39:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="311" started-at="2020-10-27T23:39:41Z" finished-at="2020-10-27T23:39:42Z">
+      <class name="tests.TestCase1">
+        <test-method status="PASS" signature="Click_Next_Button()[pri:0, instance:tests.TestCase1@9629756]" name="Click_Next_Button" duration-ms="82" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Next_Button -->
+        <test-method status="PASS" signature="Click_Signup_Link()[pri:0, instance:tests.TestCase1@9629756]" name="Click_Signup_Link" duration-ms="15" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Signup_Link -->
+        <test-method status="PASS" signature="Enter_Username()[pri:0, instance:tests.TestCase1@9629756]" name="Enter_Username" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Username -->
+        <test-method status="PASS" signature="GoTo_Gmail()[pri:0, instance:tests.TestCase1@9629756]" name="GoTo_Gmail" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoTo_Gmail -->
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:tests.TestCase1@9629756]" name="Open_Browser" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Launching_URL()[pri:0, instance:tests.TestCase1@9629756]" name="Launching_URL" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launching_URL -->
+        <test-method status="PASS" signature="Enter_Password()[pri:0, instance:tests.TestCase1@9629756]" name="Enter_Password" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Password -->
+        <test-method status="PASS" signature="Navigate_HomePage()[pri:0, instance:tests.TestCase1@9629756]" name="Navigate_HomePage" duration-ms="0" started-at="2020-10-27T23:39:42Z" finished-at="2020-10-27T23:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_HomePage -->
+      </class> <!-- tests.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
