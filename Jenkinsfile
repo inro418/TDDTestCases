@@ -1,11 +1,12 @@
+
 node{
-   stage('SCM Checkout'){
-   
-    git 'https://github.com/inro418/TDDTestCases/new/master' 
-   
-   }
-   
-   stage('Compile - Package'){
-   sh 'mvn package'
-   }
+
+  stage('SCM Checkout'){
+  git ''https://github.com/inro418/TDDTestCases.git
+  }
+  stage('Compile-Package'){
+  //Get maven home path
+  def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+  sh "${mvnHome}/bin/mvn package"
+  }
 }
