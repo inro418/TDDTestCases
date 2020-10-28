@@ -2,7 +2,7 @@
 node{
 
   stage('SCM Checkout'){
-  git ''https://github.com/inro418/TDDTestCases.git
+  git 'https://github.com/inro418/TDDTestCases.git'
   }
   stage('Compile-Package'){
   //Get maven home path
